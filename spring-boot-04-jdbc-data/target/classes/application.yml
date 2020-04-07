@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jdbc?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+
+    schema:
+      - chasspath: department.sql
+
+    initialization-mode: always
+
+  jpa:
+    #显示SQL语句
+    show-sql: true
+    #不加下面这句则不会默认创建MyISAM引擎的数据库
