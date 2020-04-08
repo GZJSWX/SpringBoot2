@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-04-web-jap
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: LCQ
+Implementation-Vendor-Id: com.atwangxin
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_192
+Main-Class: ${start-class}
+
